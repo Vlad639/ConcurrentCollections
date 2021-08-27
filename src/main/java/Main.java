@@ -1,13 +1,9 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
-import java.util.concurrent.ConcurrentMap;
-import java.util.concurrent.ConcurrentNavigableMap;
-import java.util.concurrent.ConcurrentSkipListMap;
+import java.util.*;
+import java.util.concurrent.*;
 
 public class Main {
     public static long mapOperations = 0;
-    public static ConcurrentHashMap<Integer, Integer> map = new ConcurrentHashMap<>();
+    public static ConcurrentMap<Integer, Integer> map = new ConcurrentHashMap<>();
     static long startTime;
     static double executionTimeSeconds;
     static long  speed;
